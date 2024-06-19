@@ -5,12 +5,12 @@ const Navbar = () => {
     const [menu, setMenu] = useState("menu");
   return (
     <div className='navbar'>
-      <img src = {assets.darklogo} alt = "darklogo" className="logo"/>
+      <img src = {assets.lightlogo} alt = "darklogo" className="logo"/>
       <ul className = "navbar-menu">
         <li onClick={()=>setMenu("home")} className = {menu==="home"?"active":""}>home</li>
-        <li onClick={()=>setMenu("menu")} className = {menu==="menu"?"active":""}>menu</li>
-        <li onClick={()=>setMenu("mobile-app")} className = {menu === "mobile app"?"active":""}>mobile app</li>
-        <li onClick={()=>setMenu("contact-us")} className = {menu === "contact us"?"active":""}>contact us</li>
+        <li onClick={()=>setMenu("deals of the day")} className = {menu==="deals of the day"?"active":""}>deals of the day</li>
+        <li onClick={()=>setMenu("swap hub")} className = {menu === "swap hub"?"active":""}>swap hub</li>
+        <li onClick={()=>setMenu("dev team")} className = {menu === "dev team"?"active":""}>dev team</li>
       </ul>
       <div className="navbar-right">
         <img src = {assets.searchicon} alt = ""/>
