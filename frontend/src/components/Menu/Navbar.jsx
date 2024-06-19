@@ -13,10 +13,11 @@ const Navbar = () => {
         <li onClick={()=>setMenu("dev team")} className = {menu === "dev team"?"active":""}>dev team</li>
       </ul>
       <div className="navbar-right">
-        <img src = {assets.searchicon} alt = ""/>
-        <div className="navbar-search-icon">
-            <img src = {assets.shop} alt = ""/>
-
+        <div className = "navbar-search-icon">
+          <img src = {assets.searchicon} alt = ""/>
+        </div>
+        <div className="navbar-shop-icon">
+          <img src = {assets.shop} alt = ""/>
         </div>
         <button>Sign In</button>
       </div>
