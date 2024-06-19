@@ -5,6 +5,7 @@ import logonobg from './logonobg.png'
 import searchicon from './searchicon.png'
 import shop from './shop.png'
 import car from './car.png'
+import C300 from './C300pic.jpg'
 
 export const assets = {
     banner,
@@ -13,5 +14,6 @@ export const assets = {
     logonobg,
     searchicon,
     shop,
-    car
+    car,
+    C300
 }
