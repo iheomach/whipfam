@@ -8,6 +8,7 @@ import car from './car.png'
 import C300 from './C300pic.jpg'
 import brz from './brz.png'
 import camry from './camry.jpg'
+import newlogo from './newlogo.webp'
 
 export const assets = {
     banner,
@@ -19,5 +20,6 @@ export const assets = {
     car,
     C300,
     brz,
-    camry
+    camry,
+    newlogo
 }
