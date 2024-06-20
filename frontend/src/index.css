@@ -8,11 +8,13 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  
 }
 
 body {
   min-height: 100vh;
   font-family: "Poppins", sans-serif;
+  
 }
 
 a {
@@ -26,6 +28,7 @@ html {
 .app{
   width: 90%;
   margin: auto;
+  
 }
 
 @keyframes slide-in {
