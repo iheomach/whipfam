@@ -14,7 +14,10 @@
 body {
   min-height: 100vh;
   font-family: "Poppins", sans-serif;
-  
+  background-image: url('./assets/blob-scene-haikei-2.svg');
+  background-size: cover; /* or use 'contain' depending on your needs */
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 a {
@@ -26,7 +29,6 @@ html {
 }
 
 .app{
-  width: 90%;
   margin: auto;
   
 }

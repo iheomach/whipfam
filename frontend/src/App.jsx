@@ -8,6 +8,7 @@ import Order from './pages/Order/Order'
 const App = () => {
   return (
     <div className = 'app'>
+    
       <Navbar/>
       <Routes>
         <Route path='/' element={<Home/>}/>
