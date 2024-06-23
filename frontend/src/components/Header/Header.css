@@ -4,16 +4,13 @@
     width: calc(100vw - 8rem); /* Full viewport width minus 8rem on each side */
     max-width: 100vw; /* Limit the width to the viewport height if necessary */
     height: 70vh;
-    background: url('../../assets/tesla.jpeg') no-repeat;
+    background: url('../../assets/C300pic.jpg') no-repeat;
     background-size: cover;
     position: relative;
     color: white;
     margin: 0 auto; 
     margin-top: 2vh;
-    
 }
-
-
 
 .header-contents{
     position: absolute;
